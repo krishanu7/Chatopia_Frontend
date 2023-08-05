@@ -20,7 +20,7 @@ const Messenger = () => {
   const socket = useRef();
 
   useEffect(() => {
-    socket.current = io("ws://localhost:8900");//heere to add the generated url
+    socket.current = io("https://chatopia-backend.onrender.com");//heere to add the generated url
     socket.current.on("getMessage", (data) => {
       setArrivalMessage({
         senderId: data.senderId,
