@@ -12,4 +12,4 @@ Security: The application prioritizes security measures to protect user data and
 Built with: React for frontend and WebSocket (Socket.IO) for real-time communication and MongoDB to store messages, communications.
 Demo showcases seamless communication and a smooth user experience.
 
-[Backend Folder->](https://github.com/krishanu7/Chatopia_Backend)
+Backend Repo : [Backend](https://github.com/krishanu7/Chatopia_Backend)
