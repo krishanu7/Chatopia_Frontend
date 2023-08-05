@@ -1,6 +1,6 @@
 # Chatopia
 Chatopia is an online chat application that allows multiple users to join and chat personally.
-The user interface is divided into three sections: left, middle, and right.
+The user interface is divided into three sections: left, middle, and right.<br>
 Left-hand side: Displays the list of online users.
 Middle section: Shows chat history upon selecting any user.
 Right-hand side: Displays active users for real-time chatting.
