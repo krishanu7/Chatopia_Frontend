@@ -53,6 +53,9 @@
     padding: 10px;
     height: 100%;
 }
+.chatMenuWrapper{
+    border-right: 2px solid black; 
+}
 .noConversationText {
     position: absolute;
     top: 10%;

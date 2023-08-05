@@ -20,7 +20,7 @@ const Messenger = () => {
   const socket = useRef();
 
   useEffect(() => {
-    socket.current = io("ws://localhost:8900");//heere to add the generated url
+    socket.current = io("ws://localhost:8900");
     socket.current.on("getMessage", (data) => {
       setArrivalMessage({
         senderId: data.senderId,
@@ -103,11 +103,8 @@ const Messenger = () => {
       <div className="messenger">
         <div className="chatMenu">
           <div className="chatMenuWrapper">
-            <input
-              type="text"
-              placeholder="Search Friends"
-              className="chatMenuInput"
-            />
+          <h1 className="header">Your Friends</h1>
+            <hr className="horizontal-line"/>
             {conversations.map((c) => (
               <div onClick={() => setCurrentChat(c)}>
                 <Conversation key={c._id} conversation={c} currentUser={user} />

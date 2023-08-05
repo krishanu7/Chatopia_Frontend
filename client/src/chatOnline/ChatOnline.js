@@ -66,6 +66,9 @@ const ChatOnline = ({ onlineUsers, currentId, setCurrentChat }) => {
   };
 
   return (
+    <div className="Wrapper">
+    <h1 className="header">Online Users</h1>
+    <hr className="horizontal-line"/>
     <div className="chatOnline">
       {onlineFriends.map((friend) => (
         <div
@@ -88,6 +91,7 @@ const ChatOnline = ({ onlineUsers, currentId, setCurrentChat }) => {
           <span className="chatOnlineName">{friend.username}</span>
         </div>
       ))}
+    </div>
     </div>
   );
 };
