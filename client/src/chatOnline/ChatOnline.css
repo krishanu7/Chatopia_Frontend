@@ -1,3 +1,18 @@
+.header{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    color: #1877f2;
+}
+.chatOnline{
+    border-left: 2px solid black; 
+}
+.horizontal-line{
+    border: 1px solid #1877f2; 
+}
 .chatOnlineFriend{
     display: flex;
     align-items: center;
