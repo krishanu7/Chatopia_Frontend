@@ -1,9 +1,9 @@
 # Chatopia
 Chatopia is an online chat application that allows multiple users to join and chat personally.
 The user interface is divided into three sections: left, middle, and right.<br>
-Left-hand side: Displays the list of online users.
-Middle section: Shows chat history upon selecting any user.
-Right-hand side: Displays active users for real-time chatting.
+Left-hand side: Displays the list of online users.<br>
+Middle section: Shows chat history upon selecting any user.<br>
+Right-hand side: Displays active users for real-time chatting.<br>
 Real-time Updates: Online user list and chat messages are updated in real-time using WebSocket technology.
 Chat History: Users can view past chat history with selected users.
 Real-time Chatting: Users can send and receive messages instantly without page refreshes.
