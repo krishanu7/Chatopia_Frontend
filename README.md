@@ -11,3 +11,5 @@ User-friendly Interface: The application is designed with a clean and intuitive 
 Security: The application prioritizes security measures to protect user data and prevent security threats.
 Built with: React for frontend and WebSocket (Socket.IO) for real-time communication and MongoDB to store messages, communications.
 Demo showcases seamless communication and a smooth user experience.
+
+[Backend Folder->](https://github.com/krishanu7/Chatopia_Backend)
