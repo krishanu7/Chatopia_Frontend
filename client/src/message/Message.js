@@ -1,7 +1,7 @@
 import React from "react";
 import {format} from "timeago.js"
 import "./Message.css";
-
+const PF = process.env.REACT_APP_PUBLIC_FOLDER;
 const Message = ({ message, own }) => {
   return (
     <div className={own ? "message own" : "message"}>
@@ -9,7 +9,7 @@ const Message = ({ message, own }) => {
         <img
           className="messageImg"
           alt="Profile"
-          src="https://media.licdn.com/dms/image/C5603AQFCTfdJcIXIsQ/profile-displayphoto-shrink_800_800/0/1635741387597?e=1694649600&v=beta&t=PLoWbK1jvO4b3QxUsmTYaLdLFtion6f0cdmVGHX0tcc"
+          src={PF + "person/noAvatar.png"}
         />
         <p className="messageText">{message.text}</p>
       </div>

@@ -12,7 +12,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route exact path="/" element={user ? <Messenger /> : <Register />} />
-        <Route path="/login" element={user ? <Link to="/" /> : <Login />} />
+        <Route path="/login" element={user ? <Messenger /> : <Login />} />
         <Route
           path="/register"
           element={user ? <Link to="/" /> : <Register />}

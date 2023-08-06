@@ -27,35 +27,6 @@ const UserSchema = new mongoose.Schema(
     coverPicture: {
       type: String,
       default: "",
-    },
-    followings: {
-      type: Array,
-      default: [],
-    },
-    followers: {
-      type: Array,
-      default: [],
-    },
-    isAdmin: {
-      type: Boolean,
-      default: false,
-    },
-    description : {
-      type: String,
-      default: "",
-      max: 50
-    },
-    city :{
-      type : String,
-      max: 40
-    },
-    from :{
-      type : String,
-      max: 40,
-    },
-    relationship : {
-      type : Number,
-      enum : [1, 2, 3],
     }
   },
   {

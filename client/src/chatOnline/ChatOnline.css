@@ -9,9 +9,10 @@
 }
 .chatOnline{
     border-left: 2px solid black; 
+    border-right: none;
 }
 .horizontal-line{
-    border: 1px solid #1877f2; 
+    border: 1px solid black; 
 }
 .chatOnlineFriend{
     display: flex;
